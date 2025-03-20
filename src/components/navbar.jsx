@@ -1,5 +1,5 @@
 import logo from "../assets/plplogo.svg";
-import { CgMoreR } from "react-icons/cg";
+
 import more from "../assets/more.svg"
 
 function Navbar() {
