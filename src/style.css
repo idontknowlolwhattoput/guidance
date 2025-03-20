@@ -1,1 +1,25 @@
+
 @import "tailwindcss";
+
+/*
+ TEMPLATE FOR ADDING FONTS 
+ .font-name {
+    font-family: "font-family", sans-serif;
+}
+*/
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
+.bebas {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+}
