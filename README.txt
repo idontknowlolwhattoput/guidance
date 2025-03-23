@@ -4,7 +4,11 @@
 
  --------------------------------------------------------------------------------------------------------
  DATE: March 20, 2025
- Title: First Commit
+ Title: First day of testing the responsiveness
  Desc: I set up the readme text and font and try to make it responsive on all viewports
 
  -------------------------------------------------------------------------------------------------------
+
+ DATE: March 23, 2025
+ Title: I didn't do anything for 2 days aside from finding out how to make custom breakpoints
+ Desc: Spent the last 2 days continuing the fucking responsiveness and a little bit of animation lol
