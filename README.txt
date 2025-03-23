@@ -12,3 +12,10 @@
  DATE: March 23, 2025
  Title: I didn't do anything for 2 days aside from finding out how to make custom breakpoints
  Desc: Spent the last 2 days continuing the fucking responsiveness and a little bit of animation lol
+
+
+  -------------------------------------------------------------------------------------------------------
+
+ DATE: March 24, 2025
+ Title: finished the responsiveness and animation
+ Desc: wrapped up the first 2 parts of the landing page 4 more to go

@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import background from "../assets/bgimage.webp";
+import { useEffect } from "react";
+
 
 function BgImage() {
   return (
@@ -9,8 +11,8 @@ function BgImage() {
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -50 }}
-        transition={{ duration: 1, ease: "easeOut" }}
+        exit={{ opacity: 0, y: -50, }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
         viewport={{ once: false, amount: 0.3 }}
         className="absolute inset-0 flex flex-col justify-center items-center text-white"
       >
@@ -18,9 +20,9 @@ function BgImage() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -50 }}
-          transition={{ duration: 1, ease: "easeOut" }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
           viewport={{ once: false, amount: 0.3 }}
-          className="text-5xl font-bold bebas mb-2 tracking-wider tablet:text-9xl tablet:mb-[-10px]"
+          className="text-5xl font-bold bebas mb-2 tracking-wider tablet:text-7xl pc:text-9xl pc:mb-[-10px]"
         >
           University of Pasig
         </motion.h1>

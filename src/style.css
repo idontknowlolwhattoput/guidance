@@ -3,9 +3,8 @@
 @theme {
     --breakpoint-phone: 305px;
     --breakpoint-tablet: 601px;
-    --breakpoint-laptop: 992px;
+    --breakpoint-laptop: 900px;
     --breakpoint-pc: 1280px;
-    --color-nigga: #DCA06D;
 }
 
 

@@ -20,7 +20,7 @@ function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out ${
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-400 ease-in-out ${
         scrolling ? "bg-blue-900 py-3 shadow-lg" : "bg-transparent py-5"
       }`}
     >
@@ -42,9 +42,8 @@ function Navbar() {
             University of Pasig
           </span>
         </div>
-
-    
-        <div className="hidden tablet:flex tablet:items-center tablet:space-x-5 :md:flex items-center space-x-12">
+       
+        <div className="hidden tablet:flex tablet:items-center tablet:space-x-5 pc:flex items-center pc:space-x-12">
           <a
             href="#"
             className={`font-bold transition-colors duration-300 ${
@@ -80,8 +79,7 @@ function Navbar() {
           </button>
         </div>
 
-
-        <div className="inline md:hidden mr-[2vw]">
+        <div className="inline md:hidden">
           <img src={more} alt="more" className="w-10 h-10" />
         </div>
       </div>
