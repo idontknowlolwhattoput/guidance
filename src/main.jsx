@@ -7,8 +7,9 @@ import Landing from "./landing.jsx";
 
 
 
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Landing />
+      <Landing/>
   </React.StrictMode>
 );

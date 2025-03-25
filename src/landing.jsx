@@ -35,7 +35,7 @@ function Landing() {
         <div className="flex tablet flex-col tablet:flex-row gap-20 items-center justify-center mb-30">
           
           <motion.div className="flex flex-col justify-center items-center" {...fadeIn}>
-            <motion.div className="flex mb-5 justify-center items-center bg-blue-700 h-70 w-70" {...fadeIn}>
+            <motion.div className="flex mb-5 justify-center items-center bg-blue-900 h-70 w-70" {...fadeIn}>
               <img src={Image1} className="w-50" />
             </motion.div>
             <motion.div className="h-20 w-70" {...fadeIn}>
@@ -47,7 +47,7 @@ function Landing() {
           </motion.div>
 
           <motion.div className="flex flex-col justify-center items-center" {...fadeIn}>
-            <motion.div className="flex mb-5 justify-center items-center bg-blue-700 h-70 w-70" {...fadeIn}>
+            <motion.div className="flex mb-5 justify-center items-center bg-blue-900 h-70 w-70" {...fadeIn}>
               <img src={Image3} className="w-50" />
             </motion.div>
             <motion.div className="h-20 w-70" {...fadeIn}>
@@ -59,7 +59,7 @@ function Landing() {
           </motion.div>
 
           <motion.div className="flex flex-col justify-center items-center" {...fadeIn}>
-            <motion.div className="flex mb-5 justify-center items-center bg-blue-700 h-70 w-70" {...fadeIn}>
+            <motion.div className="flex mb-5 justify-center items-center bg-blue-900 h-70 w-70" {...fadeIn}>
               <img src={Image2} className="w-50" />
             </motion.div>
             <motion.div className="h-20 w-70" {...fadeIn}>

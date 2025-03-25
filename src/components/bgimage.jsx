@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 import background from "../assets/bgimage.webp";
-import { useEffect } from "react";
+
 
 
 function BgImage() {
+ 
   return (
     <div className="relative w-full h-[500px]">
       <img src={background} alt="Background" className="w-full h-full object-cover brightness-35" />
@@ -46,10 +47,10 @@ function BgImage() {
           viewport={{ once: false, amount: 0.3 }}
           className="grid grid-cols-2 gap-5 pt-5"
         >
-          <button className="bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md font-bold hover:bg-blue-700 w-40 transition-all duration-300">
+          <button className="bg-blue-900 text-white px-4 py-2 rounded-lg shadow-md font-bold hover:bg-blue-700 w-40 transition-all duration-300">
             Learn more
           </button>
-          <button className="border-2 border-blue-400 text-blue-400 px-4 py-2 rounded-lg hover:bg-blue-400 hover:text-white transition-all duration-300">
+          <button className="border-2 border-blue-400 text-blue-400 px-4 py-2 rounded-lg hover:bg-blue-400 hover:text-white transition-all duration-300"  >
             Login
           </button>
         </motion.div>

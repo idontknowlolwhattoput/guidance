@@ -19,3 +19,9 @@
  DATE: March 24, 2025
  Title: finished the responsiveness and animation
  Desc: wrapped up the first 2 parts of the landing page 4 more to go
+
+   -------------------------------------------------------------------------------------------------------
+
+ DATE: March 24, 2025
+ Title: started the login button
+ Desc: i did the login button but its not responsive yet
