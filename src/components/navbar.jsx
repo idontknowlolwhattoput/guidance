@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from "../assets/plplogo.svg";
+import logo from "../assets/plplogo.png";
 import more from "../assets/more.svg";
 import Login from "../components/Login.jsx"; 
 
@@ -21,7 +21,7 @@ function Navbar() {
  
       <nav
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-400 ease-in-out ${
-          scrolling ? "bg-blue-900 py-3 shadow-lg" : "bg-transparent py-5"
+          scrolling ? "bg-green-900 py-3 shadow-lg" : "bg-transparent py-5"
         }`}
       >
         <div className="flex items-center justify-between px-6">
@@ -30,16 +30,16 @@ function Navbar() {
             <img
               src={logo}
               alt="plp logo"
-              className={`transition-all duration-300 ${
+              className={`inter transition-all duration-300 ${
                 scrolling ? "w-12 h-12" : "w-16 h-16"
               }`}
             />
             <span
-              className={`hidden md:flex font-poppins text-2xl font-bold transition-all duration-300 ${
-                scrolling ? "text-white text-xl" : "text-blue-900 text-2xl"
+              className={`hidden md:flex poppins text-2xl font-bold transition-all duration-300 ${
+                scrolling ? "inter text-white text-xl" : "text-green-700 text-2xl"
               }`}
             >
-              University of Pasig
+              Pamantasan ng Lungsod ng Pasig
             </span>
           </div>
 
@@ -50,7 +50,7 @@ function Navbar() {
               className={`font-bold transition-colors duration-300 ${
                 scrolling
                   ? "text-white hover:text-gray-300"
-                  : "text-blue-900 hover:text-blue-600"
+                  : "text-green-700 hover:text-green-500"
               }`}
             >
               Home
@@ -60,7 +60,7 @@ function Navbar() {
               className={`font-bold transition-colors duration-300 ${
                 scrolling
                   ? "text-white hover:text-gray-300"
-                  : "text-blue-900 hover:text-blue-600"
+                  : "text-green-700 hover:text-green-500"
               }`}
             >
               About
@@ -70,7 +70,7 @@ function Navbar() {
               className={`font-bold transition-colors duration-300 ${
                 scrolling
                   ? "text-white hover:text-gray-300"
-                  : "text-blue-900 hover:text-blue-600"
+                  : "text-green-700 hover:text-green-500"
               }`}
             >
               Transactions
@@ -79,8 +79,8 @@ function Navbar() {
             <button
               className={`px-4 py-2 rounded-lg shadow-md font-bold transition-all duration-300 ${
                 scrolling
-                  ? "bg-white text-blue-900 hover:bg-gray-200"
-                  : "bg-blue-600 text-white hover:bg-blue-700"
+                  ? "bg-yellow-300 text-green-900 hover:bg-yellow-200"
+                  : "bg-green-700 text-white hover:bg-green-500"
               } w-40`}
               onClick={() => setShowLogin(true)}
             >
@@ -90,7 +90,7 @@ function Navbar() {
 
      
           <div className="inline md:hidden">
-            <img src={more} alt="more" className="w-10 h-10" />
+            <img src={more} alt="more" className="w-9 h-9" />
           </div>
         </div>
       </nav>
@@ -101,10 +101,10 @@ function Navbar() {
           <div className="relative bg-white p-6 rounded-lg shadow-2xl">
         
             <button
-              className="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
+              className="absolute top-2 right-2 text-green-500 hover:text-green-700"
               onClick={() => setShowLogin(false)}
             >
-              ✖
+              ✖  
             </button>
             <Login /> 
           </div>
